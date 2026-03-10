@@ -166,7 +166,7 @@ def main():
     
     # Sidebar for configuration
     st.sidebar.header("Configuration")
-    api_key = st.sidebar.text_input("OpenAI API Key", type="password", value="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")
+    api_key = st.sidebar.text_input("OpenAI API Key", type="password", value="sk-xyz")
     
     if not api_key:
         st.warning("Please enter your OpenAI API key in the sidebar.")
